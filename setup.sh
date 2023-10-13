@@ -41,10 +41,9 @@ h1 "Installing packages"
 
 inst_pkg() {
     h2 "$1"
-    pkg_add -r "$1"
+    pkg install -y "$1"
 }
 
-inst_pkg vim-lite # no X11 (why does the default vim include gvim anyway?)
 inst_pkg curl
 inst_pkg bash
 inst_pkg bash-completion
