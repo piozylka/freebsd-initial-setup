@@ -49,6 +49,7 @@ inst_pkg bash
 inst_pkg bash-completion
 inst_pkg htop
 inst_pkg ncdu
+inst_pkg mc
 
 h1 "Configuring"
 
